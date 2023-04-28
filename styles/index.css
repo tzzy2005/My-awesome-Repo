@@ -36,3 +36,52 @@ div.container {
 .notes h3 {
     color:hsl(218, 44%, 22%) ;
 }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a
+{ 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+    img {
+    width: 300px;
+    height: 300px;
+    border-radius: inherit;
+    position: absolute;
+    top: 12.5px;
+    right: 12.5px;
+}
+
+div.container {
+    background-color:  hsl(0, 0%, 100%);
+    width: 325px;
+    height: 525px;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.notes {
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+    width: 275px;
+    margin: 0 auto;
+}
+
+.notes h3 {
+    color:hsl(218, 44%, 22%) ;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.notes p {
+    margin: 20px;
+    font-weight: 400;
+}
+}
