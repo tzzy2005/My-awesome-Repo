@@ -1,0 +1,38 @@
+body {
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+}
+
+img {
+    width: 225px;
+    height: 225px;
+    border-radius: inherit;
+    position: absolute;
+    top: 12.5px;
+    right: 12.5px;
+}
+
+div.container {
+    background-color:  hsl(0, 0%, 100%);
+    width: 250px;
+    height: 400px;
+    margin: 125px auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.notes {
+    position: absolute;
+    bottom: 12.5px;
+    right: 12.5px;
+    width: 225px;
+}
+
+.notes h3 {
+    color:hsl(218, 44%, 22%) ;
+}
